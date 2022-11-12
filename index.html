@@ -32,19 +32,19 @@
             <!-- RESERVE CAMPSITE MODAL / BUTTON -->
             <!-- BUTTON TRIGGER -->
             <div class="col-md-4 col-xl-2 mt-4">
-               <a class="btn btn-primary btn-lg" href="" data-toggle="modal" data-target="#reserveCampsite">Reserve Campsite</a>
+               <a class="btn btn-primary btn-lg" id="reserveButton">Reserve Campsite</a>
             </div>
          </div>
       </div>
    </header>
 
    <!-- RESERVE CAMPSITE MODAL -->
-   <div class="modal fade" id="reserveCampsite" role="dialog">
+   <div class="modal fade" id="reserveCampsiteModal" role="dialog">
       <div class="modal-dialog modal-lg" role="document">
          <div class="modal-content">
 
-            <div class="modal-header bg-info">
-               <h3 class="modal-title text-white">Reserve a Campsite</h3>
+            <div class="modal-header">
+               <h3 class="modal-title">Reserve a Campsite</h3>
                <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
 
@@ -114,7 +114,7 @@
                <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i>Contact</a></li>
             </ul>
             <span class="navbar-text ml-auto">
-               <a role="button" data-toggle="modal" data-target="#loginModal">
+               <a role="button" id="loginButton">
                   <i class="fa fa-sign-in"></i> Login
                </a>
             </span>
